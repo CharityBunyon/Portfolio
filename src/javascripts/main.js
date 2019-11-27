@@ -1,5 +1,10 @@
 import 'bootstrap';
-
 import '../styles/main.scss';
+import navBar from './components/navBar/navBar';
 
-console.error('hi');
+
+const init = () => {
+  navBar.buildNav();
+};
+
+init();
